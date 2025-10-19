@@ -6,7 +6,7 @@ Viết chương trình sử dụng FreeRTOS có tối thiểu 2 tác vụ:
 - Task 2: Định kỳ tạo ra tần số và độ rộng xung thay đổi và gửi sang Task 1 qua Queue.
 2 Task hoạt động song song, kết quả LED nhấp nháy với tần số, độ rộng xung khác nhau theo thời gian
 
-### ⚙️ Chức năng
+### Chức năng
 - **Task UART**: 
   - Đọc chuỗi từ UART theo định dạng `"freq,duty"` (ví dụ: `5,50` nghĩa là 5 Hz - 50% duty cycle).
   - Gửi dữ liệu này vào hàng đợi (`Queue`) để task khác xử lý.
